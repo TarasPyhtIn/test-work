@@ -2,7 +2,7 @@ from telebot import TeleBot, types
 import pandas as pd
 import matplotlib.pyplot as plt
 
-bot = TeleBot("6855421449:AAEpWWL-TrEdVWnGEiuSUhmVolGYa9mab-U")
+bot = TeleBot(TOKEN)
 
 def check_buy(buys, buy_price, buy_proc, capital):
     if price <= buy_price:
